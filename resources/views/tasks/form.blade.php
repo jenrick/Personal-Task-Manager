@@ -11,9 +11,9 @@
     </header>
 
     <section class="form-page">
-        <p class="eyebrow">{{ $isEditing ? 'MAKE A CHANGE' : 'MAKE A PLAN' }}</p>
-        <h1>{{ $isEditing ? 'Refine the details.' : 'What’s on your mind?' }}</h1>
-        <p class="heading-note">{{ $isEditing ? 'Update your task details below.' : 'Give your next task a name and a place in your day.' }}</p>
+        <p class="eyebrow">TASK DETAILS</p>
+        <h1>{{ $isEditing ? 'Edit task' : 'Add a task' }}</h1>
+        <p class="heading-note">{{ $isEditing ? 'Update the information for this task.' : 'Enter the details for your new task.' }}</p>
 
         @if ($errors->any())
             <div class="error-summary" role="alert">
