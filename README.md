@@ -1,8 +1,8 @@
 # Personal Task Manager
 
 Project Code: WST21-PM-2026-SF<br>
-Student Name: ____________________<br>
-Course & Year: ____________________<br>
+Student Name: DABALOS JENRICK S.<br>
+Course & Year: BSIT 2 SECTION 8<br>
 Database Used: SQLite
 
 ## Features
